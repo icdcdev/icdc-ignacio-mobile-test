@@ -3,5 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#FF949494</color>
+    <color name="grayLight">#EFEFEF</color>
     <color name="blueButton">#FF2F32E5</color>
+    <color name="yellow">#fcba03</color>
+    <color name="aqua">#06c4bb</color>
+    <color name="red">#fc030b</color>
 </resources>

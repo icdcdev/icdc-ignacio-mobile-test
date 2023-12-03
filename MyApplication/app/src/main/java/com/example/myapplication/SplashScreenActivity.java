@@ -16,7 +16,7 @@ public class SplashScreenActivity extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
         new Handler().postDelayed(() -> {
-            SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
+            SharedPreferences sharedPref = getApplicationContext().getSharedPreferences("VW", Context.MODE_PRIVATE);
             boolean logged = sharedPref.getBoolean(getString(R.string.logged_key), false);
 
             Intent intent;
